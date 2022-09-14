@@ -1,0 +1,21 @@
+# parcial-1-leonardo-avenda-o-oop
+@startuml
+ managerLibreria --|> libreria
+
+class managerLibreria{
+acciones
+prestar()
+devolver()
+librosdisponibles()
+}
+@enduml
+
+@startuml
+class libreria{
+accederlibros
+librosdisponibles()
+prestar()
+devolver()
+}
+@enduml
+
